@@ -17,6 +17,19 @@
     margin: auto;
     
 }
+.menu{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+}
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    
+}
 
 .content{
     display: inline-block;
