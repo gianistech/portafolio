@@ -17,19 +17,23 @@
     margin: auto;
     
 }
-.menu{
-    margin: 0 auto;
-    padding: 0;
+
+
+.list{
     list-style: none;
-    width: 150px;
+    margin: 0;
+    padding: 0;      
 }
-.menu a{
-    display: block;
+li{
+    display: inline;
+    /*border: 1px solid #00cccc;*/
+}
+li a{
     text-decoration: none;
-    color: white;
-    text-align: left;
-    
+    padding: 14px 16px;
+    text-align: center;
 }
+
 
 .content{
     display: inline-block;
