@@ -6,7 +6,7 @@
 .header{
     height: 100px;
     width: 600px;
-    background-color: #ffcccc;
+    background-color: #f3ebf4;
     margin: auto;
 }
 
@@ -23,20 +23,21 @@ ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: bisque;
+    background-color: #847087;
 }
-li{
+li{ 
     float: left;
 }
 li a, .dropbtn{
     display: inline-block;
-    color:white;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: sans-serif;
 }
 li a:hover, .dropdown:hover .dropbtn{
-    background-color: red;
+    background-color: #1bd63a;
 }
 li.dropdown{
     display: inline-block;
@@ -64,4 +65,21 @@ li.dropdown{
     display: inline-block;
     margin: 0 auto;
     width: 100%;
+}
+
+/*Mechatronic*/
+textarea{
+    height: 75px;
+    width: 250px;
+    resize: none;
+    text-align: justify;
+    text-align-last: left;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+video{
+    display:block;
+    margin: 0 auto;
 }
