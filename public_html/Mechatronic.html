@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="jquery-3.2.1.min.js"></script>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
         <title>Mechatronic</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        
+        <script>
+            $.get('index.html', function(data){
+                $('#header').html(data)
+            }
+            
+        </script>
         <div id="video">
             <h1 style="text-align: center">Raspberry PI 4B - BLINKING LED</h1>
             
@@ -20,9 +26,9 @@
         <br>
         <h6 style="text-align: center; margin-bottom: auto">Código:</h6>
         <textarea readonly="readonly" disabled="disabled">
-    import gpiozero use LED
-    led(25)
-    led.blink()
+   from gpiozero import LEDBoard
+   led = LEDBoard(25)
+   led.blink()
         </textarea>
         
     </body>
