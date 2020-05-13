@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="jquery-3.2.1.min.js"></script>
+        <script src='http://code.jquery.com/jquery-3.2.1.min.js'></script>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
         <title>Mechatronic</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div id="nav_mech">
         <script>
-            $.get('index.html', function(data){
-                $('#header').html(data)
-            }
-            
+            $("#nav_mech").load("index.html .navigation_bar");
         </script>
+        </div>
         <div id="video">
             <h1 style="text-align: center">Raspberry PI 4B - BLINKING LED</h1>
             
