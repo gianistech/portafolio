@@ -1,6 +1,8 @@
 .main{
-    width: 100%;
+    width: 600px;
     text-align: center;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .header{
@@ -15,6 +17,20 @@
     hight: 50px;
     display:inline-block;
     margin: 0 auto;
+}
+
+.content{
+    height: 800px;
+    width: 600px;
+    background-color: #ccffff;
+    margin: auto;
+}
+
+.footer{
+    height: 100px;
+    width: 600px;
+    background-color: #f3ebf4;
+    margin: auto;
 }
 
 /*Dropdown Menu*/
