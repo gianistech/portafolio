@@ -1,28 +1,30 @@
 body{
-    font-family: 'Open Sans'; font-size:22px;
+    font-family: 'Open Sans'; 
+    font-size:22px;
 }
 
 h1{
     font-size: 100px;
 }
 
-.button{
-    background-color: black;
-    border: 2px solid #555555;
+#footer p{
+    font-family: 'Open Sans'; 
+    font-size: 27px;
+    text-align: left;
+    padding: 20px 20px;
     color: white;
-    padding: 15px 32px;
+}
+
+.contact a:link, a:visited{
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-family: 'Open Sans'; font-size: 24px;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-.button:hover{
-    background-color: #4CAF50;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    color: white;
+.contact a:hover, a:active{
+    background-color: #006600;
 }
 
 .main{
@@ -54,8 +56,8 @@ h1{
     margin: auto;
 }
 
-.footer{
-    height: 300px;
+#footer{
+    height: 400px;
     width: 100%;
     background-color: #f3ebf4;
     margin: auto;
@@ -129,3 +131,4 @@ video{
     display:block;
     margin: 0 auto;
 }
+
