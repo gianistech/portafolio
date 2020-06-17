@@ -2,7 +2,6 @@
 <html>
     <head>
         <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-        <script src='http://code.jquery.com/jquery-3.2.1.min.js'></script>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
         <title>Mecatrónica</title>
         <meta charset="UTF-8">
@@ -10,16 +9,25 @@
     </head>
     <body>
         <div class="main">
-            <div id="header_mech">
-                <script>
-                    $("#header_mech").load("index.html .header");
-                </script>
-            </div>
-            <div id="nav_mech">
-                <script>
-                    $("#nav_mech").load("index.html .navigation_bar");
-                </script>
-            </div>
+            <div id="header"></div>
+            <div id="navigation_bar">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">PROYECTOS</a>
+                        <div class="dropdown-content">
+                            <a>Programación</a>
+                            <a href="Mechatronic.html">Mecatrónica</a>
+                            <a>Seguridad Informática</a>
+                            <a>Comercio</a>
+                        </div>
+                    </li>
+                    <li><a href="vision.html">VISIÓN</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+              </div>
+
+            
             <div class="content">
                        <div id="video">
             <h1 style="text-align: center">Raspberry PI 4B - LED PARPADEANDO</h1>
@@ -30,17 +38,12 @@
         </div>
         <h6 style="text-align: center; margin-bottom: auto">Código:</h6>
         <textarea readonly="readonly" disabled="disabled">
-   from gpiozero import LEDBoard
-   led = LEDBoard(25)
-   led.blink()
+  from gpiozero import LEDBoard
+  led = LEDBoard(25)
+  led.blink()
         </textarea>
             </div>
-                    
-        <div id="footer_mech">
-            <script>
-                $("#footer_mech").load("index.html #footer");
-            </script>
-        </div>
+            <div id="footer"></div>
         </div>
     </body>
 </html>

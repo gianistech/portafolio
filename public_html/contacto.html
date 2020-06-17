@@ -3,14 +3,14 @@
     <head>
         <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
         <link href="styles.css" rel="stylesheet" type="text/css"/>
-        <title>Visión</title>
+        <title>Contacto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div class="main">
             <div id="header"></div>
-              <div id="navigation_bar">
+            <div id="navigation_bar">
                 <ul>
                     <li><a href="index.html">INICIO</a></li>
                     <li class="dropdown">
@@ -27,16 +27,26 @@
                 </ul>
               </div>
             <div class="content">
-                <p>Alcanzar conocimientos elevados en los diferentes campos de la informática.</p>
-                <p>Desarrollar las habilidades para brindar soluciones optimas y oportunas para lograr el objetivo deseado.</p>
+                <div class="container">
+                    <form action="#">
+
+                        <label for="fname">Nombre:</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Nombre(s)">
+
+                        <label for="lname">Apellidos</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Apellidos">
+
+                        <label for="subject">Mensaje</label>
+                        <textarea id="subject" name="subject" placeholder="..." style="height:200px"></textarea>
+
+                        <input type="submit" value="Enviar">
+
+                    </form>
+                </div> 
                 
-                <p>Lograr la independencia económico en los próximos 3 años, mediante los conocimientos en finanzas y comercio. Llevar a cabo</p>
-                <p>una vida métodica y organizada para generar un entorno y condiciones idenoeas para alcanzar las metas intelectuales deseadas,</p> 
-                <p>en el corto, mediano y largo plazo.</p>
-                
-                <h2>"Mi honor es mi curiosidad".</h2>
             </div>
             <div id="footer"></div>
         </div>
+        
     </body>
 </html>
