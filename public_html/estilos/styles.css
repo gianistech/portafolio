@@ -25,7 +25,7 @@ h1{
     width: 100%;
     background-color: #f3ebf4;
     margin: auto;
-    background-image: url("header.jpg");
+    background-image: url("../imagenes/header.jpg");
 }
 
 #navigation_bar{
@@ -47,7 +47,7 @@ h1{
     width: 100%;
     background-color: #f3ebf4;
     margin: auto;
-    background-image: url("footer.png");
+    background-image: url("../imagenes/footer.png");
 }
 
 /*Dropdown Menu*/
@@ -57,7 +57,7 @@ ul{
     padding: 0;
     overflow: hidden;
     /*background-color:#006699;*/
-    background: url("nav_bar.jpg");
+    background: url("../imagenes/nav_bar.jpg");
 }
 li{ 
     float: left;
